@@ -1,0 +1,14 @@
+com/yahupc/ejercicio2/exceptions/IllegalOrphanException.class
+com/yahupc/ejercicio2/resources/JakartaEE10Resource.class
+persistencia/UsuarioJpaController.class
+logica/Controladora.class
+com/yahupc/ejercicio2/exceptions/PreexistingEntityException.class
+persistencia/exceptions/IllegalOrphanException.class
+logica/Usuario.class
+com/yahupc/ejercicio2/SvEliminar.class
+com/yahupc/ejercicio2/JakartaRestConfiguration.class
+com/yahupc/ejercicio2/SvUsuarios.class
+persistencia/exceptions/NonexistentEntityException.class
+persistencia/ControladoraPersistencia.class
+com/yahupc/ejercicio2/exceptions/NonexistentEntityException.class
+persistencia/exceptions/PreexistingEntityException.class
