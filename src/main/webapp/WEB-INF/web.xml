@@ -8,6 +8,10 @@
         <servlet-name>SvEliminar</servlet-name>
         <servlet-class>com.yahupc.ejercicio2.SvEliminar</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SvEditar</servlet-name>
+        <servlet-class>com.yahupc.ejercicio2.SvEditar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SvUsuarios</servlet-name>
         <url-pattern>/SvUsuarios</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>SvEliminar</servlet-name>
         <url-pattern>/SvEliminar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvEditar</servlet-name>
+        <url-pattern>/SvEditar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

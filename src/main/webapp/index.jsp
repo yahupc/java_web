@@ -14,6 +14,7 @@
             <p><label>TELEFONO: </label><input type="text" name="telefono"></p>
             <p><button type="submit">Enviar</button></p>
         </form>
+        
         <h1>Ver lista</h1>
         <p>Para ver la lista de usuarios hacer clic en el siguiente boton</p>
         <form action="SvUsuarios" method="GET">
@@ -25,6 +26,13 @@
         <form action="SvEliminar" method="POST">
             <p><label>Id: </label><input type="text" name="id_usuario" /></p>
             <button type="submit">Eliminar Usuario</button>
+        </form>
+        
+         <h1>Editar Usuario</h1>
+        <p>Ingresar Id del usuario a editar </p>
+        <form action="SvEditar" method="GET">
+            <p><label>Id: </label><input type="text" name="id_usuarioEdit" /></p>
+            <button type="submit">Editar Usuario</button>
         </form>
         
     </body>
